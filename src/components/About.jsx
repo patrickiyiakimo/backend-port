@@ -4,7 +4,7 @@ import patrick from "../images/patrick.JPG";
 
 const About = () => {
   return (
-    <div className="font-abc pl-20 bg-gray-200 flex pb-40">
+    <div className="font-abc pl-3 md:pl-20 bg-gray-200 md:flex pb-40">
       <section>
         <div>
           <h3 className="text-xl uppercase text-blue-600  pb-5 pt-40">About</h3>
@@ -18,12 +18,16 @@ const About = () => {
         <p>Full-Stack Developer with a focus on Backend</p>
       </section>
 
-      <section className="mt-56 mr-10 ">
-        <img
-          src={patrick}
-          alt="my picture"
-          className="rounded-lg  shadow-2xl"
-        />
+      <section className="mt-4 md:mt-56 mr-10 ">
+        <div className="card bg-gray-200 shadow-2xl">
+          <figure className="px-4 pt-4">
+            <img
+              src={patrick}
+              alt="my picture"
+              className="rounded-lg  shadow-2xl"
+            />
+          </figure>
+        </div>
       </section>
     </div>
   );

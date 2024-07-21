@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="drawer ">
+    <div className="drawer fixed z-50" id="navbar">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col ">
         {/* Navbar */}
@@ -35,22 +35,22 @@ const Navbar = () => {
             <ul className="menu menu-horizontal">
               {/* Navbar menu content here */}
               <li>
-                <a>home</a>
+                <a href="#home">home</a>
               </li>
               <li>
-                <a>about</a>
+                <a href="#about">about</a>
               </li>
               <li>
-                <a>skills</a>
+                <a href="#skills">skills</a>
               </li>
               <li>
-                <a>projects</a>
+                <a href="#projects">projects</a>
               </li>
               <li>
-                <a>resume</a>
+                <a href="#resume">resume</a>
               </li>
               <li>
-                <a>contact</a>
+                <a href="#contact">contact</a>
               </li>
             </ul>
           </div>
@@ -76,22 +76,22 @@ const Navbar = () => {
           <hr className="mb-14 mt-5" />
           {/* Sidebar content here */}
           <li>
-            <a>home</a>
+            <a href="#home">home</a>
           </li>
           <li>
-            <a>about</a>
+            <a href="#about">about</a>
           </li>
           <li>
-            <a>skills</a>
+            <a href="#skills">skills</a>
           </li>
           <li>
-            <a>projects</a>
+            <a href="#projects">projects</a>
           </li>
           <li>
-            <a>resume</a>
+            <a href="#resume">resume</a>
           </li>
           <li>
-            <a>contact</a>
+            <a href="#contact">contact</a>
           </li>
           <li>
             <p className="text-blue-600 mt-14 px-20">Let's connect</p>

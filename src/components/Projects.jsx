@@ -27,12 +27,12 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="font-abc bg-gray-200 pb-40">
-      <div className="pl-20">
+    <div className="font-abc bg-gray-200 pb-40" id="projects">
+      <div className="ml-3 md:pl-20">
         <h3 className="text-xl uppercase text-blue-600 pb-7">Projects</h3>
         <h3 className="text-4xl font-semibold pb-5">What I've Built</h3>
       </div>
-      <div className="grid grid-cols-2 gap-4 ml-10 mr-10">
+      <div className="grid md:grid-cols-2 gap-4 md:ml-10 md:mr-10">
         {details.map((detail) => (
           <div
             className="card w-2/2 h-96 shadow-xl image-full hover:bg-blue-800 transition duration-300 ease-in-out"
@@ -45,7 +45,7 @@ const Projects = () => {
               <h2 className="card-title">{detail.title}</h2>
               <p>{detail.body}</p>
               <div className="card-actions justify-end">
-                <button className="btn btn-primary">{detail.text}</button>
+                <button className="btn bg-white text-blue-950">{detail.text}</button>
               </div>
             </div>
           </div>
