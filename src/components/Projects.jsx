@@ -27,7 +27,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="font-abc bg-gray-200">
+    <div className="font-abc bg-gray-200 pb-40">
       <div className="pl-20">
         <h3 className="text-xl uppercase text-blue-600 pb-7">Projects</h3>
         <h3 className="text-4xl font-semibold pb-5">What I've Built</h3>
