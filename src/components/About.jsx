@@ -4,7 +4,10 @@ import patrick from "../images/patrick.JPG";
 
 const About = () => {
   return (
-    <div className="font-abc pl-3 md:pl-20 bg-gray-200 md:flex pb-40" id="about">
+    <div
+      className="font-abc pl-3 md:pl-20 bg-gray-200 md:flex pb-40"
+      id="about"
+    >
       <section>
         <div>
           <h3 className="text-xl uppercase text-blue-600  pb-5 pt-40">About</h3>
@@ -16,12 +19,14 @@ const About = () => {
         <p>Intern/Entry-Level Node.js Developer </p>
         <p>Intern/Entry-Level JavaScript Developer</p>
         <p>Full-Stack Developer with a focus on Backend</p>
-      <a href="#projects" className="underline pt-10">Check out some of my latest projects</a>
+        <a href="#projects" className="underline pt-10">
+          Check out some of my latest projects
+        </a>
       </section>
 
       <section className="mt-4 md:mt-56 mr-10 ">
-        <div className="card bg-gray-200 shadow-2xl">
-          <figure className="px-4 pt-4 pb-4 py-4 shadow-2xl">
+        <div className="card bg-gray-200 shadow-2xl hover:scale-105 transition-all duration-200">
+          <figure className="px-4 pt-4 pb-4 py-4 shadow-2xl ">
             <img
               src={patrick}
               alt="my picture"
