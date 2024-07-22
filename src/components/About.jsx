@@ -16,6 +16,7 @@ const About = () => {
         <p>Intern/Entry-Level Node.js Developer </p>
         <p>Intern/Entry-Level JavaScript Developer</p>
         <p>Full-Stack Developer with a focus on Backend</p>
+      <a href="#projects" className="underline pt-10">Check out some of my latest projects</a>
       </section>
 
       <section className="mt-4 md:mt-56 mr-10 ">
