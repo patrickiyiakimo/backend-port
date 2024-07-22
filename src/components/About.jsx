@@ -4,7 +4,7 @@ import patrick from "../images/patrick.JPG";
 
 const About = () => {
   return (
-    <div className="font-abc pl-3 md:pl-20 bg-gray-200 md:flex pb-40">
+    <div className="font-abc pl-3 md:pl-20 bg-gray-200 md:flex pb-40" id="about">
       <section>
         <div>
           <h3 className="text-xl uppercase text-blue-600  pb-5 pt-40">About</h3>
