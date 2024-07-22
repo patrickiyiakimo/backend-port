@@ -175,7 +175,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <a href="/">
+      <a href="#home">
         <button className="px-5 py-5 border-none bg-gray-200 shadow-2xl ml-20 mt-10 text-blue-600 rounded-full">
           <svg
             className="w-12"
