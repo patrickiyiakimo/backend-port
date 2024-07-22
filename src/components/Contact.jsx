@@ -55,7 +55,11 @@ const Contact = () => {
         <div className="md:flex">
           <div className="card bg-gray-200 md:w-2/4 shadow-2xl">
             <figure className="px-5 md:px-10 md:pt-10">
-              <img src={patrick} alt="my picture" className="rounded-xl" />
+              <img
+                src={patrick}
+                alt="my picture"
+                className="rounded-xl hover:scale-105 transition-all duration-200"
+              />
             </figure>
             <div className="card-body items-center text-center">
               <h2 className="text-2xl md:text-4xl font-semibold text-blue-600">
