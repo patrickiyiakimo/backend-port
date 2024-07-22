@@ -39,13 +39,13 @@ const Projects = () => {
             key={detail.id}
           >
             <figure>
-              <img src={programming} alt="programming picture" />
+              <img src={programming} alt="programming" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">{detail.title}</h2>
               <p>{detail.body}</p>
               <div className="card-actions justify-end">
-                <button className="btn bg-white text-blue-950">{detail.text}</button>
+                <button className="btn bg-white text-blue-950 w-44">{detail.text}</button>
               </div>
             </div>
           </div>

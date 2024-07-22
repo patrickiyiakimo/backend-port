@@ -21,7 +21,7 @@ const About = () => {
 
       <section className="mt-4 md:mt-56 mr-10 ">
         <div className="card bg-gray-200 shadow-2xl">
-          <figure className="px-4 pt-4">
+          <figure className="px-4 pt-4 pb-4 py-4 shadow-2xl">
             <img
               src={patrick}
               alt="my picture"
