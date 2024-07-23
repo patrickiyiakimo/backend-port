@@ -5,7 +5,7 @@ import patrick from "../images/patrick.JPG";
 const About = () => {
   return (
     <div
-      className="font-abc pl-3 md:pl-20 bg-gray-200 md:flex pb-40"
+      className="font-abc pl-3 md:pl-20 bg-gray-400 md:flex pb-40"
       id="about"
     >
       <section>
@@ -25,7 +25,7 @@ const About = () => {
       </section>
 
       <section className="mt-4 md:mt-56 mr-10 ">
-        <div className="card bg-gray-200 shadow-2xl hover:scale-105 transition-all duration-200">
+        <div className="card bg-gray-400 shadow-2xl hover:scale-105 transition-all duration-200">
           <figure className="px-4 pt-4 pb-4 py-4 shadow-2xl ">
             <img
               src={patrick}

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className="font-abc pt-20 bg-gray-200 " id='home'>
+    <div className="font-abc pt-20 bg-gray-400 " id='home'>
       <div>
         <p className=" uppercase text-center pt-20 pb-10 md:pb-20">
           Let us build something together

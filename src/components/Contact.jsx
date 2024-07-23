@@ -48,12 +48,12 @@ const Contact = () => {
   };
 
   return (
-    <div className="font-abc bg-gray-200 pb-20 md:pb-40" id="contact">
+    <div className="font-abc bg-gray-400 pb-20 md:pb-40" id="contact">
       <div className="pl-3 md:pl-20">
         <h3 className="text-xl uppercase text-blue-600 pb-7">Contact</h3>
         <h3 className="text-4xl font-semibold pb-5">Get In Touch</h3>
         <div className="md:flex">
-          <div className="card bg-gray-200 md:w-2/4 shadow-2xl">
+          <div className="card bg-gray-400 md:w-2/4 shadow-2xl">
             <figure className="px-5 md:px-10 md:pt-10">
               <img
                 src={patrick}
@@ -73,7 +73,7 @@ const Contact = () => {
               <p className="uppercase text-center pt-10">connect with me</p>
             </div>
           </div>
-          <div className="card mt-5 bg-gray-200 md:ml-5 md:w-2/4 md:mr-5 uppercase shadow-2xl">
+          <div className="card mt-5 bg-gray-400 md:ml-5 md:w-2/4 md:mr-5 uppercase shadow-2xl">
             <div className="card-body">
               <form onSubmit={handleSubmit}>
                 <label>Name</label>
