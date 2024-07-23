@@ -11,7 +11,7 @@ const Navbar = () => {
             <label
               htmlFor="my-drawer-3"
               aria-label="open sidebar"
-              className="btn btn-square btn-ghost"
+              className="btn btn-square btn-ghost text-gray-400"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +70,7 @@ const Navbar = () => {
               <span className="text-blue-700">pat</span>rick
             </div>
           </li>
-          <p className="lowercase  px-5">
+          <p className="lowercase  px-5 text-gray-400">
             Let's build something legendary together
           </p>
           <hr className="mb-14 mt-5" />
