@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import React from "react";
-import programming from "../images/programming.png"
+import programming from "../components/images/programming.png"
 
 
 const Projects = () => {
