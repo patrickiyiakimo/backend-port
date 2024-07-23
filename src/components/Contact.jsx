@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import patrick from "../images/patrick.JPG";
 import * as Yup from "yup";
 
 const Contact = () => {
@@ -48,7 +47,10 @@ const Contact = () => {
   };
 
   return (
-    <div className="font-abc bg-gray-400 pb-20 md:pb-40 text-gray-950" id="contact">
+    <div
+      className="font-abc bg-gray-400 pb-20 md:pb-40 text-gray-950"
+      id="contact"
+    >
       <div className="pl-3 md:pl-20">
         <h3 className="text-xl uppercase text-blue-600 pb-7">Contact</h3>
         <h3 className="text-4xl font-semibold pb-5">Get In Touch</h3>
@@ -56,7 +58,7 @@ const Contact = () => {
           <div className="card bg-gray-400 md:w-2/4 shadow-2xl">
             <figure className="px-5 md:px-10 md:pt-10">
               <img
-                src={patrick}
+                src="/images/patrick.JPG"
                 alt="my picture"
                 className="rounded-xl hover:scale-105 transition-all duration-200"
               />
@@ -86,7 +88,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="name"
-                  className="py-3 rounded-sm w-full mb-5"
+                  className="py-3 rounded-sm w-full mb-5 bg-gray-200"
                   value={formData.name}
                   onChange={handleChange}
                 />{" "}
@@ -101,7 +103,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="phone"
-                  className="py-3 rounded-sm w-full mb-5"
+                  className="py-3 rounded-sm w-full mb-5 bg-gray-200"
                   value={formData.phone}
                   onChange={handleChange}
                 />
@@ -116,7 +118,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="email"
-                  className="py-3 rounded-sm w-full mb-5"
+                  className="py-3 rounded-sm w-full mb-5 bg-gray-200"
                   value={formData.email}
                   onChange={handleChange}
                 />
@@ -130,7 +132,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="subject"
-                  className="py-3 rounded-sm w-full mb-5"
+                  className="py-3 rounded-sm w-full mb-5 bg-gray-200"
                   value={formData.subject}
                   onChange={handleChange}
                 />
@@ -144,7 +146,7 @@ const Contact = () => {
                 )}
                 <textarea
                   name="message"
-                  className="h-40 rounded-sm w-full mb-5"
+                  className="h-40 rounded-sm w-full mb-5 bg-gray-200"
                   value={formData.message}
                   onChange={handleChange}
                 />

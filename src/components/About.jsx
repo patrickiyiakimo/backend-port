@@ -1,6 +1,5 @@
 import React from "react";
 import AboutText from "./AboutText";
-import patrick from "../images/patrick.JPG";
 
 const About = () => {
   return (
@@ -28,7 +27,7 @@ const About = () => {
         <div className="card bg-gray-400 shadow-2xl hover:scale-105 transition-all duration-200">
           <figure className="px-4 pt-4 pb-4 py-4 shadow-2xl ">
             <img
-              src={patrick}
+              src="/images/patrick.JPG"
               alt="my picture"
               className="rounded-lg  shadow-2xl"
             />
