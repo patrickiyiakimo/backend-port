@@ -48,7 +48,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="font-abc bg-gray-400 pb-20 md:pb-40" id="contact">
+    <div className="font-abc bg-gray-400 pb-20 md:pb-40 text-gray-950" id="contact">
       <div className="pl-3 md:pl-20">
         <h3 className="text-xl uppercase text-blue-600 pb-7">Contact</h3>
         <h3 className="text-4xl font-semibold pb-5">Get In Touch</h3>

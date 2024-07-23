@@ -5,7 +5,7 @@ import patrick from "../images/patrick.JPG";
 const About = () => {
   return (
     <div
-      className="font-abc pl-3 md:pl-20 bg-gray-400 md:flex pb-40"
+      className="font-abc pl-3 md:pl-20 bg-gray-400 md:flex pb-40 text-gray-950"
       id="about"
     >
       <section>

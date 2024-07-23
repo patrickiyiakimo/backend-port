@@ -3,7 +3,7 @@ import React from 'react'
 const AboutText = () => {
   return (
     <div>
-      <p>
+      <p className='text-gray-950'>
         I am a backend developer with hands-on experience in server-side
         technologies, database management, and backend architecture. My
         expertise extends to building robust APIs, integrating third-party

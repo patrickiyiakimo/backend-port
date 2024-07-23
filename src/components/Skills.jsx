@@ -16,7 +16,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div className="font-abc bg-gray-400" id="skills">
+    <div className="font-abc bg-gray-400 text-gray-950" id="skills">
       <div className="pl-3 md:pl-20">
         <h3 className="text-xl uppercase text-blue-600 pb-7">Skills</h3>
         <h3 className="text-4xl font-semibold pb-3">What Can I Do</h3>
