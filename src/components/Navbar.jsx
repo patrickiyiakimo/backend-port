@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="drawer fixed z-50" id="navbar">
+    <div className="drawer text-gray-950 fixed z-50" id="navbar">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col ">
         {/* Navbar */}
@@ -58,7 +58,7 @@ const Navbar = () => {
 
         {/* mobile design */}
       </div>
-      <div className="drawer-side ">
+      <div className="drawer-side text-gray-950">
         <label
           htmlFor="my-drawer-3"
           aria-label="close sidebar"
