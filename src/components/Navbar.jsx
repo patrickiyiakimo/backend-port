@@ -75,22 +75,22 @@ const Navbar = () => {
           </p>
           <hr className="mb-14 mt-5" />
           {/* Sidebar content here */}
-          <li>
+          <li className="text-gray-400">
             <a href="#home">home</a>
           </li>
-          <li>
+          <li className="text-gray-400">
             <a href="#about">about</a>
           </li>
-          <li>
+          <li className="text-gray-400">
             <a href="#skills">skills</a>
           </li>
-          <li>
+          <li className="text-gray-400">
             <a href="#projects">projects</a>
           </li>
-          <li>
+          <li className="text-gray-400">
             <a href="#resume">resume</a>
           </li>
-          <li>
+          <li className="text-gray-400">
             <a href="#contact">contact</a>
           </li>
           <li>
