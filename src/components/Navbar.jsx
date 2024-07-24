@@ -64,33 +64,33 @@ const Navbar = () => {
           aria-label="close sidebar"
           className="drawer-overlay"
         ></label>
-        <ul className="menu bg-gray-400 font-abc uppercase min-h-full w-80 p-4">
+        <ul className="menu bg-gray-950 font-abc uppercase min-h-full w-80 p-4">
           <li>
             <div className="mx-2 flex-1 px-2 uppercase text-gray-200 text-2xl md:text-4xl font-bold font-abc text-blue-600">
               <span className="text-blue-700">pat</span>rick
             </div>
           </li>
-          <p className="lowercase  px-5 text-gray-400">
+          <p className="lowercase  px-5 text-gray-200">
             Let's build something legendary together
           </p>
           <hr className="mb-14 mt-5" />
           {/* Sidebar content here */}
-          <li className="text-gray-400">
+          <li className="text-gray-200">
             <a href="#home">home</a>
           </li>
-          <li className="text-gray-400">
+          <li className="text-gray-200">
             <a href="#about">about</a>
           </li>
-          <li className="text-gray-400">
+          <li className="text-gray-200">
             <a href="#skills">skills</a>
           </li>
-          <li className="text-gray-400">
+          <li className="text-gray-200">
             <a href="#projects">projects</a>
           </li>
-          <li className="text-gray-400">
+          <li className="text-gray-200">
             <a href="#resume">resume</a>
           </li>
-          <li className="text-gray-400">
+          <li className="text-gray-200">
             <a href="#contact">contact</a>
           </li>
           <li>
