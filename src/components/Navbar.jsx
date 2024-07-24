@@ -47,7 +47,7 @@ const Navbar = () => {
                 <a href="#projects">projects</a>
               </li>
               <li>
-                <a href="#resume">resume</a>
+                <a href="https://flowcv.com/resume/kbflcu3ohm">resume</a>
               </li>
               <li>
                 <a href="#contact">contact</a>
@@ -88,7 +88,7 @@ const Navbar = () => {
             <a href="#projects">projects</a>
           </li>
           <li className="text-gray-200">
-            <a href="#resume">resume</a>
+            <a href="https://flowcv.com/resume/kbflcu3ohm">resume</a>
           </li>
           <li className="text-gray-200">
             <a href="#contact">contact</a>
