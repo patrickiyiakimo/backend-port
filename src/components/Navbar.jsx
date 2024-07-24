@@ -17,7 +17,7 @@ const Navbar = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                className="inline-block h-6 w-6 stroke-current"
+                className="inline-block h-6 w-6 stroke-current text-gray-950"
               >
                 <path
                   strokeLinecap="round"
@@ -47,7 +47,7 @@ const Navbar = () => {
                 <a href="#projects">projects</a>
               </li>
               <li>
-                <a href="https://flowcv.com/resume/kbflcu3ohm">resume</a>
+                <a href="#resume">resume</a>
               </li>
               <li>
                 <a href="#contact">contact</a>
@@ -88,7 +88,7 @@ const Navbar = () => {
             <a href="#projects">projects</a>
           </li>
           <li className="text-gray-200">
-            <a href="https://flowcv.com/resume/kbflcu3ohm">resume</a>
+            <a href="#resume">resume</a>
           </li>
           <li className="text-gray-200">
             <a href="#contact">contact</a>
