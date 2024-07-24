@@ -64,7 +64,7 @@ const Navbar = () => {
           aria-label="close sidebar"
           className="drawer-overlay"
         ></label>
-        <ul className="menu bg-base-200 font-abc uppercase min-h-full w-80 p-4">
+        <ul className="menu bg-gray-400 font-abc uppercase min-h-full w-80 p-4">
           <li>
             <div className="mx-2 flex-1 px-2 uppercase text-gray-200 text-2xl md:text-4xl font-bold font-abc text-blue-600">
               <span className="text-blue-700">pat</span>rick
