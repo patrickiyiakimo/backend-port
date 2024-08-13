@@ -81,7 +81,7 @@ const Contact = () => {
                 <label>Name</label>
                 <br />
                 {errors.name && (
-                  <div className="text-red-600 p-3 w-72 text-sm rounded-md ">
+                  <div className="text-red-600 p-3 w-72 text-sm rounded-md">
                     {errors.name}
                   </div>
                 )}
